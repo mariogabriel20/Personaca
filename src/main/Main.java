@@ -1,21 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package main;
 
-/**
- *
- * @author Mario
- */
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Persona p1 = new Persona("Miguelsaco",40,"Heroes de la Concepcion",110);
+        Persona p2 = new Persona("Nicolaco",12,"Recabarren",1100);
+        System.out.println("Nombre: "+p1.getNombre()+"\nEdad: "+p1.getEdad()+"\nDireccion: "+p1.dir.getNombre()+"\nNumero: "+p1.dir.getnumero());
+        System.out.println("Nombre: "+p2.getNombre()+"\nEdad: "+p2.getEdad()+"\nDireccion: "+p2.dir.getNombre()+"\nNumero: "+p2.dir.getnumero());
     }
     
 }
